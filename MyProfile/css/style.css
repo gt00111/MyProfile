@@ -1,0 +1,196 @@
+
+/* pcレイアウト */
+body{
+    font-family: "Noto Sans JP", sans-serif;
+}
+body{
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+}
+h1{
+    font-size: 34px;
+}
+header > h1 {
+    display: block;
+    border: solid;
+    padding: 10px 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin: 0 auto;
+}
+#pc-nav{
+    margin: auto 10px auto 10px;
+}
+#pc-nav > a:link{
+    color: #000000;
+    text-decoration: none;
+    font-size: 34px;
+    font-weight: bold;
+    padding: 20px;
+}
+#pc-nav > a:visited{
+    color: #000000;
+}
+#pc-nav > a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+#pc-nav > a:active{
+    color: #000000;
+}
+#main-img{
+    width: 100%;
+    margin: 10px;
+}
+#about > h2{
+    font-size: 24px;
+}
+.about-li{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+#about > h1 {
+    display: block;
+    text-align: center;
+}
+#about > #about-div{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    margin: 0 auto;
+}
+#about-div > div > img{
+    border-radius: 140px;
+}
+#works > h1 {
+    display: block;
+    text-align: center;
+}
+#works > #works-div {
+    display: flex;
+    width: 700px;
+    margin: 0 auto;
+}
+.works-img{
+    width: 200px;
+    margin: 5 0;
+}
+#works > #works-div > div {
+    text-align: center;
+    margin: 0 auto;
+}
+#works-div > div > p {
+    font-size: 18px;
+}
+footer{
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+@media screen and (max-width:767px) {
+    body{
+        max-width: 767px;
+        margin: 0 auto 0 auto;
+    }
+    h1{
+        font-size: 34px;
+    }
+    header > h1 {
+        display: block;
+        border: solid;
+        padding: 10px 20px;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        width: 700px;
+        margin: 0 auto;
+    }
+    #pc-nav{
+        margin: auto 10px auto 10px;
+    }
+    #pc-nav > a:link{
+        color: #000000;
+        text-decoration: none;
+        font-size: 34px;
+        font-weight: bold;
+        padding: 20px;
+    }
+    #pc-nav > a:link{
+        color: #000000;
+        text-decoration: none;
+        font-size: 34px;
+        font-weight: bold;
+        padding: 20px;
+    }
+    #pc-nav > a:visited{
+        color: #000000;
+    }
+    #pc-nav > a:hover {
+        color: #000000;
+        text-decoration: underline;
+    }
+    #pc-nav > a:active{
+        color: #000000;
+    }
+    #main-img{
+        width: 100%;
+        margin: 10px;
+    }
+    #about > h2{
+        font-size: 24px;
+    }
+    .about-li{
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    #about > h1 {
+        display: block;
+        text-align: center;
+    }
+    #about > #about-div{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 700px;
+        margin: 0 auto;
+    }
+    #about-div > div > img{
+        border-radius: 140px;
+    }
+    #works > h1 {
+        display: block;
+        text-align: center;
+    }
+    #works > #works-div {
+        display: flex;
+        flex-direction:column;
+        width: 700px;
+        margin: 0 auto;
+    }
+    .works-img{
+        min-width: 700px;
+        margin: 5 0;
+    }
+    #works > #works-div > div {
+        text-align: center;
+        margin: 0 auto 30px;
+    }
+    #works-div > div > p br{
+        display: none;
+    }
+    #works-div > div > p {
+        font-size: 18px;
+    }
+    footer{
+        font-size: 18px;
+        text-align: center;
+        padding: 20px;
+        margin-top: 50px;
+    }
+}
